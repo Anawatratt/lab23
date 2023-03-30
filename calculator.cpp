@@ -62,5 +62,3 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		TranslateMessage(&msg); /* Translate key codes to chars if present */
 		DispatchMessage(&msg); /* Send it to WndProc */
 	}
-	return msg.wParam;
-}
